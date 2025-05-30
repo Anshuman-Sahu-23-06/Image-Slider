@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome CDN for Social Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Header and Navigation -->
+  <header id="home">
+    <nav>
+      <ul>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Carousel Section -->
+  <div class="carousel" id="gallery">
+    <div class="list">
+      <!-- Slide 1 -->
+      <div class="item">
+        <img src="images/1.jpg" alt="Street Photography"/>
+        <div class="content">
+          <div class="author">WanderFramez_</div>
+          <div class="title">Street Photography</div>
+          <div class="topic">Adhyatmik</div>
+          <div class="des">
+            This picture has a story! it reflects well that, A Sanatani, framed by time, walks through the shadows with fire in his soul. 
+            Every step is a captured moment, a shutter clicking on centuries of silence. 
+            Draped in saffron, he becomes a moving subject in nature’s lens where contrast meets calm, and exposure reveals essence. 
+            The background blurs, but his purpose stays in focus. In the golden hour of existence, he walks not just through space, 
+            but through a story only the soul can develop.
+          </div>
+          <div class="buttons">
+            <button>SEE MORE</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="item">
+        <img src="images/2.jpg" alt="Concert Photography"/>
+        <div class="content">
+          <div class="author">WanderFramez_</div>
+          <div class="title">Concert Photography</div>
+          <div class="topic">SANKALP</div>
+          <div class="des">
+            This stage has a story! it echoes dreams aloud. 
+            Sankalp Mega Star isn’t just an event, it’s a spotlight on passion, framed in talent and lit with ambition. 
+            Each step on stage is a shuttered beat of courage, every performance a captured frame of fire. 
+            As lights dim and applause rises, stars aren’t born they’re revealed. 
+            In the lens of the moment, NIST doesn’t just host a show, it carves memories in motion.   
+          </div>
+          <div class="buttons">
+            <button>SEE MORE</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="item">
+        <img src="images/3.jpg" alt="Culture Photography"/>
+        <div class="content">
+          <div class="author">WanderFramez_</div>
+          <div class="title">Culture Photography</div>
+          <div class="topic">DandaNacha</div>
+          <div class="des">
+            This picture holds a legacy etched in flame and faith. 
+            Danda Nacha of Ganjam isn’t just dance, it’s devotion in motion. 
+            When Agni Danda strikes, it’s not fire they conquer, but fear. 
+            Bare feet on burning paths, eyes ablaze with surrender every step a frame of sacrifice, every flame a spotlight of belief. 
+            Captured through the lens, this isn’t just tradition it’s a timeless ritual, where pain becomes prayer and heat becomes harmony. 
+            A soul set to rhythm, echoing centuries in every click
+          </div>
+          <div class="buttons">
+            <button>SEE MORE</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="item">
+        <img src="images/4.jpg" alt="Nature Photography"/>
+        <div class="content">
+          <div class="author">WanderFramez_</div>
+          <div class="title">Nature Photography</div>
+          <div class="topic">Vanaras</div>
+          <div class="des">
+            Vanaras aren’t just characters, they’re echoes of dharma in motion. 
+            With ash on their skin and courage in their eyes, they leap through frames like shadows of Hanuman himself. 
+            Every stance is a captured roar, every gaze a still of loyalty and fire. 
+            In the spotlight, they’re warriors—of myth, of might, of meaning. 
+            Through the lens, they become more than images—they become reminders that even in chaos, devotion finds its form.
+          </div>
+          <div class="buttons">
+            <button>SEE MORE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thumbnail Section -->
+    <div class="thumbnail">
+      <div class="item">
+        <img src="images/1.jpg" alt="">
+        <div class="content">
+          <div class="title">Street Photography</div>
+          <div class="description">Adhyatmik</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/2.jpg" alt="">
+        <div class="content">
+          <div class="title">Concert Photography</div>
+          <div class="description">SANKALP</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/3.jpg" alt="">
+        <div class="content">
+          <div class="title">Culture Photography</div>
+          <div class="description">DandaNacha</div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/4.jpg" alt="">
+        <div class="content">
+          <div class="title">Nature Photography</div>
+          <div class="description">Vanaras</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <div class="arrows">
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
+    </div>
+
+    <!-- Time Bar -->
+    <div class="time"></div>
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Get in Touch</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message →</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-content">
+      <div class="contact-us">
+        <h4>Contact Us</h4>
+        <p>Email: anshumansahu2306@gmail.com</p>
+        <p>Phone: +91 7854939308</p>
+        <p>Address: Brehmapur, Ganjam, Odisha</p>
+      </div>
+      <div class="quick-links">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="social-links">
+        <h4>Follow Us</h4>
+        <a href="https://facebook.com" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://x.com" class="x" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://linkedin.com" class="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <p>&copy; 2025 WanderFramez_. All rights reserved.</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
